@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  @apply tw-h-full;
+}
+
+.ant-layout {
+  @apply tw-min-h-full;
+}
