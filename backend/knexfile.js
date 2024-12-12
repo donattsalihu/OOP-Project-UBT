@@ -11,10 +11,10 @@ module.exports = {
       database: process.env.DB_NAME,
     },
     migrations: {
-      directory: "./migrations",
+      directory: "./migrations", // Ensure this matches your migrations folder
     },
     seeds: {
-      directory: "./seeds",
+      directory: "./seeds", // Optional: For initial data seeding
     },
   },
 };
